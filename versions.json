@@ -1,10 +1,10 @@
 {
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "26.10.30",
       "date": "2026-10-30",
-      "size": "50 MB",
-      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/v1.0.0/QS_1.0.0_x64-setup.exe",
+      "size": "1.9 MB",
+      "url": "https://github.com/tomiguedj1-stack/QS/releases/download/v26.10.30/QS_26.10.30_x64-setup.exe",
       "notes": [
         "הגרסה הראשונה",
         "כאן כותבים מה השתנה"
