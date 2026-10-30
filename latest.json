@@ -4,7 +4,7 @@
   "pub_date": "2026-10-30T12:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "תוכן קובץ ה-.sig שנוצר בבנייה",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTktzUXI1bVZTdkJNb2kzcnFLNE5qYzB1SFRyWERTVW9TdjU2UjZtRDdoeE5yVnkyZnJoQTB0eUorRFp6OHhFamJpVnRLMW5CaE1MNVJ5cDhzdEhMU3YvQUl4OXNkQUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzg5MjY0CWZpbGU6UVNfMjYuMTAuMzBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjI2LjEwLjMwCjFNRXpXVkRISWh5b0lyU2MwUWJHM2pOSmhHNGUwZDBabW5qZ21QQ21BZmxVMFRYMEF0b3NQV2NiZDZINVBhd1pYZkVHNUk4emhKZEx4SFVpRjBZV0NBPT0K",
       "url": "https://github.com/tomiguedj1-stack/QS/releases/download/v26.10.30/QS_26.10.30_x64-setup.exe"
     }
   }
