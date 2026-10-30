@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QS – הורדה</title>
+  <meta name="description" content="הורדת QS ל-Windows – הגרסה האחרונה וכל הגרסאות הקודמות.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>QS</h1>
+    <!-- TODO: החלף בתיאור קצר של התוכנה -->
+    <p class="tagline">כאן כותבים משפט אחד שמסביר מה התוכנה עושה.</p>
+
+    <a id="download-btn" class="btn" href="#" aria-disabled="true">טוען…</a>
+    <p id="download-meta" class="meta"></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>מה חדש בגרסה האחרונה</h2>
+      <ul id="latest-notes" class="notes"></ul>
+    </section>
+
+    <section>
+      <h2>כל הגרסאות</h2>
+      <table id="versions-table">
+        <thead>
+          <tr><th>גרסה</th><th>תאריך</th><th>גודל</th><th></th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>דרישות מערכת</h2>
+      <!-- TODO: עדכן לפי הצורך -->
+      <ul>
+        <li>Windows 10 ומעלה (64 סיביות)</li>
+        <li>בפעם הראשונה Windows עשוי להציג אזהרת SmartScreen – לחץ "מידע נוסף" ואז "הפעל בכל זאת"</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> QS</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
