@@ -37,17 +37,11 @@ body {
 
 /* ראש הדף */
 .hero {
+  position: relative;
   text-align: center;
   padding: 64px 16px 48px;
 }
 .brand {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.brand-logo { width: clamp(72px, 14vw, 104px); height: auto; }
-.brand h1 {
   margin: 0;
   color: var(--brand);
   font-size: clamp(64px, 14vw, 108px);
@@ -55,6 +49,18 @@ body {
   line-height: 1;
   letter-spacing: 1px;
 }
+/* הלוגו ושורת הקשר בפינה הימנית העליונה */
+.corner {
+  position: absolute;
+  top: 20px;
+  inset-inline-start: 24px;
+  max-width: 220px;
+  text-align: start;
+}
+.corner-logo { display: block; width: 64px; height: auto; margin-bottom: 8px; }
+.contact { margin: 0; font-size: .9rem; line-height: 1.55; color: var(--muted); }
+.nowrap { white-space: nowrap; }
+.contact a { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
 .tagline {
   margin: 16px 0 36px;
   font-size: 1.25rem;
@@ -139,8 +145,11 @@ td a { color: var(--accent); font-weight: 600; }
 footer { text-align: center; color: var(--muted); padding: 0 16px 36px; font-size: .9rem; }
 footer p { margin: 0; }
 
+@media (max-width: 900px) {
+  .corner { position: static; margin: 0 20px 28px; max-width: none; }
+  .hero { padding-top: 20px; }
+}
 @media (max-width: 640px) {
-  .hero { padding-top: 44px; }
   .sheet { margin-inline: 12px; padding: 12px 22px 20px; }
   .features { grid-template-columns: 1fr; }
 }
