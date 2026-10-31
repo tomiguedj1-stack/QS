@@ -3,23 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QS – הורדה</title>
-  <meta name="description" content="הורדת QS ל-Windows – הגרסה האחרונה וכל הגרסאות הקודמות.">
+  <title>QS – עורך מסמכים ונוסחאות בעברית</title>
+  <meta name="description" content="QS הוא עורך מסמכים בעברית עם תמיכה מלאה בנוסחאות מתמטיות. הורדה חינם ל-Windows.">
+  <meta name="theme-color" content="#0878e8">
+  <link rel="icon" type="image/png" href="logo.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
-    <h1>QS</h1>
-    <!-- TODO: החלף בתיאור קצר של התוכנה -->
-    <p class="tagline">כאן כותבים משפט אחד שמסביר מה התוכנה עושה.</p>
+    <div class="brand" dir="ltr">
+      <img class="brand-logo" src="logo.png" alt="" width="104" height="104">
+      <h1>QS</h1>
+    </div>
+    <!-- TODO: אפשר לשנות את המשפט -->
+    <p class="tagline">עורך מסמכים ונוסחאות בעברית</p>
 
-    <a id="download-btn" class="btn" href="#" aria-disabled="true">טוען…</a>
-    <p id="download-meta" class="meta"></p>
+    <a id="download-btn" class="btn" href="#" aria-disabled="true">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+      <span>הורדה לווינדוז</span>
+    </a>
+    <p id="download-meta" class="meta">&nbsp;</p>
   </header>
 
-  <main>
+  <main class="sheet">
     <section>
-      <h2>מה חדש בגרסה האחרונה</h2>
+      <h2>מה זה QS</h2>
+      <!-- TODO: התאם את הטקסט לתוכנה -->
+      <p class="lead">QS הוא עורך מסמכים בעברית שנבנה לכתיבה עם נוסחאות. כותבים טקסט, נוסחאות, טבלאות ותרשימים באותו מסמך, ומייצאים ל-PDF כשמסיימים.</p>
+      <ul class="features">
+        <li>נוסחאות ומטריצות שנכתבות בתוך הטקסט</li>
+        <li>מחשבון גרפי ותרשימים</li>
+        <li>טבלאות, ציורים וקטעי קוד</li>
+        <li>ציטוטים, ביבליוגרפיה ותוכן עניינים</li>
+        <li>הערות בשוליים ולשוניות למספר מסמכים</li>
+        <li>ייבוא מ-Word, LyX ו-TeX, וייצוא ל-PDF</li>
+        <li>מצב בהיר וכהה, עם צבעים שאפשר להתאים</li>
+        <li>עדכון אוטומטי לגרסה החדשה</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>מה חדש</h2>
       <ul id="latest-notes" class="notes"></ul>
     </section>
 
@@ -27,7 +51,7 @@
       <h2>כל הגרסאות</h2>
       <table id="versions-table">
         <thead>
-          <tr><th>גרסה</th><th>תאריך</th><th>גודל</th><th></th></tr>
+          <tr><th>גרסה</th><th>תאריך</th><th class="col-size">גודל</th><th><span class="sr-only">הורדה</span></th></tr>
         </thead>
         <tbody></tbody>
       </table>
@@ -35,10 +59,9 @@
 
     <section>
       <h2>דרישות מערכת</h2>
-      <!-- TODO: עדכן לפי הצורך -->
-      <ul>
+      <ul class="plain">
         <li>Windows 10 ומעלה (64 סיביות)</li>
-        <li>בפעם הראשונה Windows עשוי להציג אזהרת SmartScreen – לחץ "מידע נוסף" ואז "הפעל בכל זאת"</li>
+        <li>בהתקנה הראשונה Windows עשוי להציג אזהרת SmartScreen. לוחצים "מידע נוסף" ואז "הפעל בכל זאת".</li>
       </ul>
     </section>
   </main>
