@@ -1,11 +1,11 @@
 {
-  "version": "26.10.30",
+  "version": "26.11.08",
   "notes": "הגרסה הראשונה",
-  "pub_date": "2026-10-30T12:00:00Z",
+  "pub_date": "2026-11-8T12:00:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTktzUXI1bVZTdkRXaCtkU2pqYmdJeEkzeHBaNWZoS0xHaENnVFIvY0xEeWJheHNuOGFyVW9DTUdZamQrUlE3VDEwWG5CK2lKOHFyRk1MRVVUUHJydmxZV1R5cVp4UHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTMxOTY3CWZpbGU6UVNfMjYuMTEuOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MjYuMTEuOApXOXJHeGRCUGx5bDBwc0tYOGpuVEZiclFYYWtKUzA5NWNLN3lzcnlSRHNpemwrM1dMWHpEMXJaM3I5TlNzTmNRS1c1c1ppRllNOTNockFhbDBORFBEUT09Cg==",
-      "url": "https://github.com/tomiguedj1-stack/QS/releases/download/v26.10.30/QS_26.10.30_x64-setup.exe"
+      "url": "https://github.com/tomiguedj1-stack/QS/releases/download/v26.11.08/QS_26.11.08_x64-setup.exe"
     }
   }
 }
