@@ -32,6 +32,7 @@ fetch("versions.json", { cache: "no-store" })
     const meta = document.getElementById("download-meta");
     meta.textContent = "גרסה ";
     meta.appendChild(ltr(latest.version));
+    meta.append(" (גרסת בטא, עדיין באגי לפעמים)");
     if (latest.appSize) {
       meta.append(" · ");
       meta.appendChild(ltr(latest.appSize));
