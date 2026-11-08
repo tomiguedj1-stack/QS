@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "version": "26.11.8",
+      "date": "2026-11-08",
+      "size": "5.6 MB",
+      "appSize": "8.6 MB",
+      "url": "https://github.com/tomiguedj1-stack/QS/releases/download/v26.11.08/QS_26.11.8_x64-setup.exe",
+      "notes": [
+        "מה שהשתנה בגרסה"
+      ]
+    },
+    {
       "version": "26.10.30",
       "date": "2026-10-30",
       "size": "1.9 MB",
@@ -11,15 +21,5 @@
         "כאן כותבים מה השתנה"
       ]
     }
-  ]
-}
-{
-  "version": "26.11.08",
-  "date": "2026-11-08",
-  "size": "5.6 MB",
-  "appSize": "8.6 MB",
-  "url": "https://github.com/tomiguedj1-stack/QS/releases/download/v26.11.08/QS_26.11.08_x64-setup.exe",
-  "notes": [
-    "מה שהשתנה בגרסה"
   ]
 }
